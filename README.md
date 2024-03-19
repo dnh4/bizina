@@ -19,6 +19,10 @@ composer install
 php bin/console doctrine:migrations:migrate 'DoctrineMigrations\Version20240319061552
 ````
 - Lancement du serveur
-``` symfony server:start -d```
+```
+symfony server:start -d
+```
 - Stoper le serveur
-``` symfony server:stop ```
+``` 
+symfony server:stop
+```
